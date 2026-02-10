@@ -1,0 +1,4 @@
+﻿user_id,billing_date,amount,status
+U001,2024-03-01,10,paid
+U002,2024-03-01,20,paid
+U003,2024-03-01,10,failed

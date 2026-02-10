@@ -1,0 +1,7 @@
+﻿user_id,event_type,event_date
+U001,login,2024-03-01
+U001,feature_use,2024-03-02
+U001,login,2024-03-10
+U002,login,2024-03-01
+U002,support_ticket,2024-03-05
+U003,login,2024-02-15
