@@ -1,24 +1,30 @@
-📊 Churn Behavior Intelligence
+# Churn Behavior Intelligence
 
-A data analytics project focused on identifying customer churn patterns using SQL, behavioral analysis, and visual storytelling. This project transforms raw product usage data into actionable business insights to help predict and prevent customer drop-off.
+A data analytics project focused on identifying customer churn patterns using SQL, Python, and behavioral analytics. This project converts raw product usage data into meaningful insights that help businesses understand customer engagement, detect early churn signals, and improve retention strategies.
 
-🚀 Project Overview
+---
 
-Customer churn is one of the biggest challenges for subscription-based and digital products. This project analyzes user engagement, billing behavior, and feature usage to detect early warning signs of churn and generate retention insights.
+## Project Overview
 
-🎯 Objectives
+Customer churn is one of the biggest challenges for subscription-based and digital products. Understanding why users leave and identifying early warning signals can help organizations reduce revenue loss and improve customer experience.
 
-Identify behavior patterns leading to churn
+This project analyzes user engagement, billing behavior, and feature usage patterns to uncover behavior-based indicators of churn risk.
 
-Measure engagement decay over time
+---
 
-Analyze retention by signup cohorts
+## Objectives
 
-Build risk scoring based on usage signals
+* Identify behavior patterns that lead to customer churn
+* Measure engagement drop over time
+* Analyze retention across signup cohorts
+* Build usage-based churn risk insights
+* Present findings through clear reports and dashboards
 
-Present insights through dashboards and reports
+---
 
-📁 Project Structure
+## Project Structure
+
+```
 Churn_Behavior_Intelligence/
 │
 ├── 00_Project_Overview/
@@ -35,7 +41,6 @@ Churn_Behavior_Intelligence/
 │   ├── Retention by Cohort.sql
 │   ├── Feature Diversity Score.sql
 │   ├── Usage Risk Score.sql
-│   └── (additional analysis queries)
 │
 ├── 03_Analysis/
 │   ├── Churn_Intelligence.ipynb
@@ -48,101 +53,103 @@ Churn_Behavior_Intelligence/
 │   ├── customer_churn_analysis.pbix
 │   └── customer_churn_analysis.pdf
 │
-└── requirements.txt
+├── requirements.txt
+└── README.md
+```
 
-🔍 Key Analyses Performed
-1️⃣ Engagement Decay Detection
+---
 
-Identifies users whose activity drops over time
+## Key Analyses
 
-Helps detect early churn signals
+### Engagement Drop Detection
 
-2️⃣ Cohort Retention Analysis
+Identifies users whose activity decreases over time.
+Helps detect early warning signals before customers stop using the product.
 
-Tracks how long users stay active after signup
+### Cohort Retention Analysis
 
-Compares retention across different cohorts
+Tracks how long users remain active after signup.
+Allows comparison of retention performance across different user groups.
 
-3️⃣ Feature Usage Diversity
+### Feature Usage Diversity
 
-Measures how widely users explore product features
+Measures how widely users explore product features.
+Lower feature usage often indicates higher churn risk.
 
-Low diversity often correlates with churn
+### Usage Risk Insights
 
-4️⃣ Usage Risk Scoring
+Combines behavioral signals to identify high-risk users and prioritize retention actions.
 
-Assigns churn risk based on behavior patterns
+---
 
-Helps prioritize retention efforts
+## Tools and Technologies
 
-🛠️ Tools & Technologies
+* SQL for behavioral analysis and feature engineering
+* Python for data analysis
+* Jupyter Notebook for exploration
+* Power BI for dashboard visualization
+* CSV datasets for raw data storage
 
-SQL (behavioral analytics & feature engineering)
+---
 
-Python (analysis & modeling)
+## Outputs
 
-Jupyter Notebook
+* SQL-based behavioral insights
+* Exploratory analysis in notebooks
+* Business-ready churn analysis report
+* Interactive Power BI dashboard
 
-Power BI (dashboard visualization)
+---
 
-CSV datasets (users, billing, events)
-
-📊 Outputs
-
-SQL-driven behavioral insights
-
-Notebook-based exploratory analysis
-
-Business-ready churn report
-
-Interactive Power BI dashboard
-
-💡 Business Value
+## Business Value
 
 This project helps organizations:
 
-Detect churn early
+* Detect churn early
+* Understand why customers leave
+* Improve retention strategies
+* Identify high-risk user segments
+* Make data-driven product decisions
 
-Understand why customers leave
+---
 
-Improve retention strategies
+## How to Run the Project
 
-Focus on high-risk user segments
+1. Clone the repository
 
-📷 Dashboard Preview
-
-Power BI dashboard available in:
-
-05_Visuals/customer_churn_analysis.pbix
-
-▶️ How to Run
-
-Clone the repository
-
+```
 git clone https://github.com/kanniangayar36-create/churn-behavior-intelligence.git
+```
 
+2. Install dependencies
 
-Open SQL files in your database tool
-
-Run the Jupyter notebook:
-
+```
 pip install -r requirements.txt
+```
+
+3. Run the Jupyter Notebook
+
+```
 jupyter notebook
+```
 
+4. Open SQL files in your preferred database tool
 
-Open Power BI file to view dashboards
+5. Open the Power BI file to view the dashboard
 
-📌 Future Improvements
+---
 
-Add machine learning churn prediction model
+## Future Improvements
 
-Deploy dashboard online
+* Add machine learning churn prediction model
+* Automate data pipeline
+* Deploy dashboards online
+* Implement real-time churn alerts
 
-Automate data pipeline
+---
 
-Add real-time churn alerts
-
-👤 Author
+## Author
 
 Kanniangayar
-Data Analytics Enthusiast | SQL | Python | Power BI
+Data Analytics Enthusiast
+Skills: SQL, Python, Power BI
