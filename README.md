@@ -150,6 +150,6 @@ jupyter notebook
 
 ## Author
 
-Kanniangayar
+Angayarkanni G
 Data Analytics Enthusiast
 Skills: SQL, Python, Power BI
